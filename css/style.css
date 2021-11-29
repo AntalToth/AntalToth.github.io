@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Allura-Regular";
+    src: url("Allura-Regular.ttf");
+}
+
+html {
+    background-image: url("../images/background_7.jpg");
+    background-size: cover;
+}
+
+
+#Base-Story {
+    float: left;
+    width: 40%;
+    font-family: "Allura-Regular", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#Xmass-Tree {
+    padding-top: 3%;
+    float: left;
+    width: 40%;
+}
+
+img.calendar {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    table-layout: fixed;
+    padding: 0%;
+}
+
+.center {
+    text-align: center;
+}
+
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/images/snow.jpg");
+    z-index: -1;
+    mix-blend-mode: screen;
+}
+.snow:nth-child(1) {
+    animation: animate 10s linear infinite;
+}
+.snow:nth-child(2) {
+    animation: animate2 15s linear infinite;
+}
+.snow:nth-child(3) {
+    animation: animate3 20s linear infinite;
+}
+.snow:nth-child(4) {
+    animation: animate2 16s linear infinite;
+}
+.snow:nth-child(5) {
+    animation: animate 16s linear infinite;
+}
+@keyframes animate {
+    0%
+    {
+        background-position-x: 50px;
+        background-position-y: 0;
+    }
+    100%
+    {
+        background-position-x: 50px;
+        background-position-y: 600px;
+    }
+}
+@keyframes animate2 {
+    0%
+    {
+        background-position-x: 100px;
+        background-position-y: 0;
+    }
+    100%
+    {
+        background-position-x: 100px;
+        background-position-y: 600px;
+    }
+}
+@keyframes animate3 {
+    0%
+    {   
+        transform: scale(1.5);
+        background-position-x: -100px;
+        background-position-y: 0;
+    }
+    100%
+    {   
+        transform: scale(1.5);
+        background-position-x: -100px;
+        background-position-y: 600px;
+    }
+}

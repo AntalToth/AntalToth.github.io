@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Allura-Regular";
+    src: url("Allura-Regular.ttf");
+}
+
+html {
+    background-image: url("../images/background_7.jpg");
+    background-size: cover;
+}
+
+
+#Base-Story {
+    float: left;
+    width: 40%;
+    font-family: "Allura-Regular", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#Xmass-Tree {
+    padding-top: 3%;
+    float: left;
+    width: 40%;
+}
+
+img.calendar {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    table-layout: fixed;
+    padding: 0%;
+}
+
+.center {
+    text-align: center;
+}
